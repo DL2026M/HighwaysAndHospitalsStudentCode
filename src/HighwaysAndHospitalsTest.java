@@ -9,7 +9,7 @@
  * test_files directory.
  *
  */
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.jupiter.api.Timeout;
 import java.io.BufferedReader;
 import java.io.FileReader;

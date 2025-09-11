@@ -1,9 +1,10 @@
-Name: YOUR NAME HERE
+Name: David Lutch
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date      |       Time       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Update |
+|:----------|:----------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Sept 11th | 12:50pm - 1:20pm | I began brainstorming on how to approach this problem mathematically and realized that I need to make a new hospital on each end of every road that cannot be connected. I think that you have to basically create branches of cities that have roads connecting each city within the group to a hospital. If a city cannot have a road connected to a new city, then that city needs to start a new group of cities. This process needs to be repeated until every city is connected to a hospital. |
+| Sept 11th | 1:20pm - 1:50pm  |  I talked with Oliver and we figured out that each group of cities will need n-1 bridges. I read through all of the test case code to understand how the problem works and to see some of test cases. In addition, I wrote code for the instance where hospitals costs less than highways, and if so just build a hospital in every city. |
+|           |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
