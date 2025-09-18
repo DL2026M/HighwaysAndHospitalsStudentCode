@@ -15,11 +15,13 @@ public class HighwaysAndHospitals {
      *  hospital access for all citizens in Menlo County.
      */
     public static long cost(int n, int hospitalCost, int highwayCost, int cities[][]) {
-        int minimalCost = 0;
         if (hospitalCost <= highwayCost) {
             // Builds a hospital in every city because it's cheaper than building highways
-            return (n * hospitalCost);
+            return ((long) n * hospitalCost);
         }
+        int minimalCost = 0;
+        // figure out how many subgraphs
+
 
 
 
