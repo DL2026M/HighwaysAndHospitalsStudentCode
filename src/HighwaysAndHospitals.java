@@ -58,12 +58,12 @@ public class HighwaysAndHospitals {
             if (rootOne != rootTwo) {
                 // Checks to see how many cities are connected to the first root
                 if (map[rootOne] > map[rootTwo]) {
-                    // Minusing one from the total cities connected to root one because I want to include the root itself
+                    // Minusing one from the total cities connected to root one because I don't want to include the root itself
                     map[rootTwo] += map[rootOne] - 1;
                     map[rootOne] = rootTwo;
                 }
                 else {
-                    // Minusing one from the total cities connected to root two because I want to include the root itself
+                    // Minusing one from the total cities connected to root two because I don't want to include the root itself
                     map[rootOne] += map[rootTwo] - 1;
                     map[rootTwo] = rootOne;
                 }
